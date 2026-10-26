@@ -1,7 +1,7 @@
 import json
 
 
-with open("students.json", "r") as file:
+with open("student.json", "r") as file:
     students = json.load(file)
 
 
