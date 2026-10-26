@@ -14,7 +14,7 @@ new_student = {
 students.append(new_student)
 
 # Save the updated data into a new JSON file
-with open("updated_students.json", "w") as file:
+with open("updated_student.json", "w") as file:
     json.dump(students, file, indent=4)
 
 print("New record added successfully.")
